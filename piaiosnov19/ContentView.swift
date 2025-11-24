@@ -15,6 +15,11 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("Banan")
+            VStack {
+                Text("Ny funktion")
+                    .padding()
+                    .background(Color.cyan)
+            }
         }
         .padding()
     }
